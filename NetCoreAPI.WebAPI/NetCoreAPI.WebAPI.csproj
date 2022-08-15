@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetCoreAPI.Application\NetCoreAPI.Application.csproj" />
+    <ProjectReference Include="..\NetCoreAPI.Domain\NetCoreAPI.Domain.csproj" />
+    <ProjectReference Include="..\NetCoreAPI.Persistence\NetCoreAPI.Persistence.csproj" />
+  </ItemGroup>
+
+
+</Project>
